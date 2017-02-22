@@ -1,0 +1,8 @@
+[MQ_FINAL_TOPIC]
+name=ERP_FINAL_TOPIC_PRO
+producer=PID_erp_final_producer
+consumer=CID_erp_final_c_server_consumer
+[MQ_EXCEPTION]
+name=EXCEPTION_TOPIC_PRO
+producer=PID_exception_producer
+consumer=CID_exception_c_server_consumer

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<binlogCare period_time="30">
+    <table name="WM_SO_HEADER" hm_update_timestamp="2016-3-31 0:31:30" />
+    <table name="WM_SO_DETAIL" hm_update_timestamp="2016-5-3 4:1:30" />
+    <table name="wm_asn_header" hm_update_timestamp="2016-5-12 13:44:30" />
+    <table name="wm_asn_detail" hm_update_timestamp="2016-5-12 13:44:30" />
+</binlogCare>

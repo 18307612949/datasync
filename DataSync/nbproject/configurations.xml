@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="public" displayName="public" projectFiles="true">
+      <itemPath>../public/Commfun.cpp</itemPath>
+      <itemPath>../public/Commfun.h</itemPath>
+      <itemPath>../public/LogData.cpp</itemPath>
+      <itemPath>../public/LogData.h</itemPath>
+      <itemPath>../public/LogError.cpp</itemPath>
+      <itemPath>../public/LogError.h</itemPath>
+      <itemPath>../public/MyException.cpp</itemPath>
+      <itemPath>../public/MyException.h</itemPath>
+      <itemPath>../public/lock.cpp</itemPath>
+      <itemPath>../public/lock.h</itemPath>
+      <itemPath>../public/socket_message.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="syncshare" displayName="syncshare" projectFiles="true">
+      <itemPath>../syncshare/AliMessageQueue.cpp</itemPath>
+      <itemPath>../syncshare/AliMessageQueue.h</itemPath>
+      <itemPath>../syncshare/Config.cpp</itemPath>
+      <itemPath>../syncshare/Config.h</itemPath>
+      <itemPath>../syncshare/MyMessageListener.cpp</itemPath>
+      <itemPath>../syncshare/MyMessageListener.h</itemPath>
+      <itemPath>../syncshare/__fdelt_chk.c</itemPath>
+      <itemPath>../syncshare/base64.cpp</itemPath>
+      <itemPath>../syncshare/base64.h</itemPath>
+      <itemPath>../syncshare/comm.cpp</itemPath>
+      <itemPath>../syncshare/comm.h</itemPath>
+      <itemPath>../syncshare/defines.h</itemPath>
+      <itemPath>../syncshare/memcpy.c</itemPath>
+      <itemPath>../syncshare/urlencode.cpp</itemPath>
+      <itemPath>../syncshare/urlencode.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles" displayName="头文件" projectFiles="true">
+      <itemPath>CProcessMqData.h</itemPath>
+      <itemPath>StdAfx.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles" displayName="源文件" projectFiles="true">
+      <itemPath>CProcessMqData.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles" displayName="资源文件" projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="测试文件"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="重要文件"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>CDownloadBinlog.cpp</itemPath>
+    <itemPath>CDownloadBinlog.h</itemPath>
+    <itemPath>HandlerClientSocket.cpp</itemPath>
+    <itemPath>HandlerClientSocket.h</itemPath>
+    <itemPath>SocketServer.cpp</itemPath>
+    <itemPath>SocketServer.h</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../syncshare</Elem>
+    <Elem>../public</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>../syncshare</pElem>
+            <pElem>../include</pElem>
+            <pElem>../public</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LOG_EXCEPTION</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>../syncshare</pElem>
+            <pElem>../include</pElem>
+            <pElem>../public</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LOG_EXCEPTION</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../lib/mq</pElem>
+          </linkerAddLib>
+          <commandLine>-lpthread -lonsclient4cpp -ldl -Wl,-wrap,memcpy</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../public/Commfun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/Commfun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/LogData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/LogData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/LogError.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/LogError.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/MyException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/MyException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/lock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/socket_message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/AliMessageQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/AliMessageQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/MyMessageListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/MyMessageListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/__fdelt_chk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../syncshare/base64.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/comm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/comm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/memcpy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../syncshare/urlencode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/urlencode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDownloadBinlog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDownloadBinlog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CProcessMqData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CProcessMqData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HandlerClientSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HandlerClientSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StdAfx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>../syncshare</pElem>
+            <pElem>../include</pElem>
+            <pElem>../public</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LOG_EXCEPTION</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>.</pElem>
+            <pElem>../syncshare</pElem>
+            <pElem>../include</pElem>
+            <pElem>../public</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>LOG_EXCEPTION</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../lib/curl</pElem>
+            <pElem>../lib/mq</pElem>
+            <pElem>../lib/mysql</pElem>
+            <pElem>../lib/openssl</pElem>
+            <pElem>../lib/redis</pElem>
+          </linkerAddLib>
+          <commandLine>-lpthread -lonsclient4cpp -ldl -Wl,-wrap,memcpy</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="../public/Commfun.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/Commfun.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/LogData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/LogData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/LogError.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/LogError.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/MyException.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/MyException.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/lock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../public/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../public/socket_message.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/AliMessageQueue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/AliMessageQueue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/Config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/Config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/MyMessageListener.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/MyMessageListener.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/__fdelt_chk.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../syncshare/base64.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/base64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/comm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/comm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/defines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../syncshare/memcpy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../syncshare/urlencode.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../syncshare/urlencode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CDownloadBinlog.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CDownloadBinlog.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CProcessMqData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CProcessMqData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="HandlerClientSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="HandlerClientSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SocketServer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SocketServer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StdAfx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

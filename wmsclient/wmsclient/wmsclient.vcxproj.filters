@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{9999fc08-d6db-424b-bc47-2b1ebbd3d2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp\include">
+      <UniqueIdentifier>{07e4761b-c5a5-4856-a288-1d0d7c03d9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp\src">
+      <UniqueIdentifier>{c6f88587-b7a2-498d-9582-337bcc1e80c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyxml">
+      <UniqueIdentifier>{d089be1f-40e9-43a6-831c-1aa6e9d41972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\wmsclient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wmsclient.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\jsoncpp\src\lib_json\json_valueiterator.inl">
+      <Filter>jsoncpp\src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="wmsclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wmsclientDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\BinlogMonitor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MysqlOperation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSocketServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringCoding.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HandlerMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\allocator.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\assertions.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\autolink.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\config.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\features.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\forwards.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\json.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\reader.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\value.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\version.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\include\json\writer.h">
+      <Filter>jsoncpp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\jsoncpp\src\lib_json\json_tool.h">
+      <Filter>jsoncpp\src</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildFinally.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RefreshUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\LogData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\LogError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\lock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\MyException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\binlog\export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\binlog\CRowData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\binlog\tx_ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PreBinlog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinyxml\tinystr.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\tinyxml\tinyxml.h">
+      <Filter>tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\socket_message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDbThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\Commfun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\increment\increment_export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\public\Md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="increment_export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyslqQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wmsclient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wmsclientDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MysqlOperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSocketServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCoding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HandlerMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>jsoncpp\src</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildFinally.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RefreshUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\public\LogData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\public\LogError.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\public\lock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\public\MyException.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PreBinlog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinystr.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinyxml.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinyxmlerror.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\tinyxml\tinyxmlparser.cpp">
+      <Filter>tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDbThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\public\Commfun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\public\Md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="increment_export.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyslqQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="wmsclient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

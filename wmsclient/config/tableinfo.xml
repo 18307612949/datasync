@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<binlogCare>
+	<table name="WM_SO_HEADER" hm_update_timestamp="2016-05-04 18:39:57">
+	</table>
+	<table name="WM_SO_DETAIL" hm_update_timestamp="2016-05-04 18:39:57">
+	</table>
+	<table name="wm_asn_header" hm_update_timestamp="2016-05-04 18:39:57">
+	</table>
+	<table name="wm_asn_detail" hm_update_timestamp="2016-05-04 18:39:57">
+	</table>
+</binlogCare>

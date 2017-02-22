@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{19c4bff2-13d7-4762-aa6f-70fed426dab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{952644a5-e356-4f43-83b7-e44b383faea7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\binlog.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\big_endian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\binary_log_funcs.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\binary_log_types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\binlog_config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\binlog_event.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\BinlogMonitor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\byte_order_generic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\byte_order_generic_x86.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\byteorder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\decimal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\FileCache.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\little_endian.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\log_event.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\LogEvent.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_bit.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_bitmap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_byteorder.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_compiler.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_dbug.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_decimal.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_global.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\my_time.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\myisampack.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\mysql_time.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ParseLogEntry.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\TableDef.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tx_common.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\tx_lock.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\binlog\export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\binlog\CRowData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\binlog\tx_ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\binlog\tx_rowvalue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="binlog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\binary_log_funcs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\BinlogMonitor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\decimal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FileCache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LogEvent.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\my_bitmap.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\my_decimal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\my_time.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ParseLogEntry.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TableDef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tx_common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tx_lock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tx_rowvalue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CRowData.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\binlog\export.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

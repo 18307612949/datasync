@@ -1,0 +1,5 @@
+#ifndef BINLOG_CONFIG
+#define BINLOG_CONFIG
+#define IS_BIG_ENDIAN 0
+
+#endif //BINLOG_CONFIG
